@@ -76,7 +76,7 @@ random_empire_init_01 = {
 		home_planet = yes
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
-		size = 16
+		size = 25
 		tile_blockers = none
 		modifiers = none
 
@@ -346,7 +346,7 @@ random_empire_init_02 = {
 		class = ideal_planet_class
 		orbit_distance = 0
 		orbit_angle = { min = 90 max = 270 }
-		size = { min = 16 max = 16 }
+		size = 25
 		tile_blockers = none
 		modifiers = none
 
@@ -706,7 +706,7 @@ random_empire_init_03 = {
 			class = ideal_planet_class
 			orbit_distance = 10
 			orbit_angle = { min = 90 max = 270 }
-			size = { min = 16 max = 16 }
+			size = 25
 			tile_blockers = none
 			modifiers = none
 
@@ -943,7 +943,7 @@ random_empire_init_04 = {
 		home_planet = yes
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
-		size = 16
+		size = 25
 		tile_blockers = none
 		modifiers = none
 

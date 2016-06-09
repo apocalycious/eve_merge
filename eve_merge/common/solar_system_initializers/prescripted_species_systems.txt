@@ -37,7 +37,7 @@ sol_system_initializer = {
 		class = "pc_greenhouse_hot"
 		orbit_distance = 20
 		orbit_angle = 125
-		size = 16
+		size = 20
 		has_ring = no
 	}
 	
@@ -46,7 +46,7 @@ sol_system_initializer = {
 		class = "pc_continental"
 		orbit_distance = 20
 		orbit_angle = 120
-		size = 16
+		size = 25
 		starting_planet = yes
 		has_ring = no
 		entity = "continental_planet_earth_entity"
@@ -187,7 +187,7 @@ sol_system_initializer = {
 		class = "pc_semi_barren"
 		orbit_distance = 20
 		orbit_angle = 60
-		size = 12
+		size = 15
 		has_ring = no
 	}
 	
@@ -698,7 +698,7 @@ deneb_system = {
 			class = ideal_planet_class
 			orbit_distance = 5
 			orbit_angle = 340
-			size = 16
+			size = 25
 			starting_planet = yes
 			has_ring = no
 			entity = "continental_planet_01_entity"	
