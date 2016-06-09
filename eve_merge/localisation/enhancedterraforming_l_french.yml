@@ -1,0 +1,7 @@
+﻿l_french:
+ ####################################
+ # Terrain Tiles
+ ####################################
+ 
+ pc_asteroid_tile:0 "Asteroid Terrain"
+ pc_asteroid_tile_desc:0 "A smooth creater that makes widespread construction a possibility."

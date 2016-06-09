@@ -1,0 +1,7 @@
+﻿l_german:
+ ####################################
+ # Terrain Tiles
+ ####################################
+ 
+ pc_asteroid_tile:0 "Asteroides Terrain"
+ pc_asteroid_tile_desc:0 "Ein flacher Krater der weitläufige Bebauung möglich macht."
