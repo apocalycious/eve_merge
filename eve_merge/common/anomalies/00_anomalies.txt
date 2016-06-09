@@ -1710,6 +1710,14 @@ anomaly = {
 	}
 }
 
+<<<<<<< HEAD
+=======
+############################
+# More Events Mod
+# Anomaly Events
+#############################
+
+>>>>>>> master
 #Brainworm Anomaly Event
 anomaly = {
     event = mem_brainworm_event.1

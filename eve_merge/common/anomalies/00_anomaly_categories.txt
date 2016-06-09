@@ -2684,11 +2684,14 @@ anomaly_category = {
 	
 }
 
+<<<<<<< HEAD
 #############################
 #More Events Mod
 #Anomaly Categories
 #############################
 
+=======
+>>>>>>> master
 #Brainworm Discovery (Tropical World)
 anomaly_category = {
     key = "mem_brainworm_category"
