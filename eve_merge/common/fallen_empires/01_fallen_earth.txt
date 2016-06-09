@@ -1,0 +1,45 @@
+fallen_empire_earth = {
+	graphical_culture = "fallen_empire_03"
+	initializer = "fallen_earth"
+	
+	create_country_effect = {
+		random_list = {
+			50 = { }
+			50 = {
+				modifier = {
+					factor = 0
+					any_country = {
+						species_portrait = human
+						#num_owned_planets = 1
+						# OR = {
+							# has_country_flag = human_1
+							# has_country_flag = human_2
+						# }
+					}
+				}
+				create_species = {
+					name = Human
+					plural = Humans
+					class = "MAM"
+					portrait = human
+					traits = {
+						trait = "trait_quick_learners"
+						trait = "trait_nomadic"
+						trait = "trait_pc_continental_preference"
+					}
+				}
+				create_country = {
+					name = random
+					type = fallen_empire
+					ignore_initial_colony_error = yes
+					government = stagnated_ascendancy
+					species = last_created
+					flag = random
+				}
+				last_created_country = {
+					set_country_flag = fallen_empire_earth
+				}
+			}
+		}	
+	}
+}

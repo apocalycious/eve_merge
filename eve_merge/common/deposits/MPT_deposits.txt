@@ -1,0 +1,22 @@
+d_immense_mineral_energy_deposit = {
+	resources = {
+		energy = 2
+		minerals = 2
+	}
+	station = shipclass_mining_station
+	orbital_weight = {
+		weight = 20
+	}
+	
+	drop_weight = {
+		weight = 0
+		modifier = {
+			weight = 4
+			planet = {
+				#OR = {
+					is_planet_class = pc_carbon
+				#}
+			}
+		}
+	}
+}
