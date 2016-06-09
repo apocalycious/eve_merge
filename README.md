@@ -4,10 +4,14 @@ My own merge of a handful of Stellaris mods that otherwise have compatibility pr
 ```
 * Better Empire Names
 	http://steamcommunity.com/sharedfiles/filedetails/?id=684475224
+* Enhanced Terraforming
+	http://steamcommunity.com/sharedfiles/filedetails/?id=683262202
 * Ethics, Government, Policies
 	http://steamcommunity.com/sharedfiles/filedetails/?id=688581447
 * Galactic Governance
 	http://steamcommunity.com/sharedfiles/filedetails/?id=687892748
+* Larger Homeworld
+	http://steamcommunity.com/sharedfiles/filedetails/?id=686173963
 * Make Space(Governments) Great Again 
 	http://steamcommunity.com/sharedfiles/filedetails/?id=693897659
 * More Edicts: Protocols and Doctrines
