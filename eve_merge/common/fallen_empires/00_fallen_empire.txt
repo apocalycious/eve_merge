@@ -1,0 +1,110 @@
+fallen_empire_1 = {
+	graphical_culture = "fallen_empire_02"
+	initializer = "fallen_1_1" #Ringworld
+	
+	create_country_effect = {
+		if = {
+			limit = {
+				any_country = {
+					species_portrait = human
+					#num_owned_planets = 1
+					# OR = {
+						# has_country_flag = human_1
+						# has_country_flag = human_2
+					# }
+				}
+			}
+			create_species = {
+				name = random
+				class = random
+				portrait = random
+				traits = random
+			}
+			else = {
+				random_list = {
+					85 = {
+						create_species = {
+							name = random
+							class = random
+							portrait = random
+							traits = random
+						}
+					}
+					15 = {
+						create_species = {
+							name = Human
+							plural = Humans
+							class = "MAM"
+							portrait = human
+							traits = {
+								trait = "trait_quick_learners"
+								trait = "trait_nomadic"
+								trait = "trait_pc_continental_preference"
+							}
+						}
+					}
+				}
+			}
+		}	
+		create_country = {
+			name = random
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			government = stagnated_ascendancy
+			species = last_created
+			flag = random
+		}
+		last_created_country = {
+			set_country_flag = fallen_empire_1
+		}
+	}
+}
+fallen_empire_2 = {
+	graphical_culture = "fallen_empire_01"
+	initializer = "fallen_2"
+	
+	create_country_effect = {
+		create_species = {
+			name = random
+			class = random
+			portrait = random
+			traits = random
+		}
+		create_country = {
+			name = random
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			government = stagnated_ascendancy
+			species = last_created
+			flag = random
+		}
+		last_created_country = {
+			set_country_flag = fallen_empire_2
+		}
+	}
+}
+
+fallen_empire_3 = {
+	graphical_culture = "fallen_empire_03"
+	initializer = "fallen_3"
+	
+	create_country_effect = {
+		create_species = {
+			name = random
+			class = random
+			portrait = random
+			traits = random
+		}
+		create_country = {
+			name = random
+			type = fallen_empire
+			ignore_initial_colony_error = yes
+			government = stagnated_ascendancy
+			species = last_created
+			flag = random
+		}
+		last_created_country = {
+			set_country_flag = fallen_empire_3
+		}
+	}
+}

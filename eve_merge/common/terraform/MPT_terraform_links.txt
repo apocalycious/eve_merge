@@ -1,0 +1,148 @@
+
+# Hot Greenhouse to Desert
+terraform_link = {
+	from = "pc_greenhouse_hot"
+	to = "pc_desert"
+	
+	duration = 1500
+	
+	#cost
+	energy = 2000
+	resources = {
+		sr_terraform_gases = 3
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		has_technology = "tech_advanced_terraforming"
+	}
+}
+# Hot Greenhouse to Tropical
+terraform_link = {
+	from = "pc_greenhouse_hot"
+	to = "pc_tropical"
+	
+	duration = 1500
+	
+	#cost
+	energy = 2000
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 3
+	}
+	
+	condition = {
+		has_technology = "tech_advanced_terraforming"
+	}
+}
+
+# Semi-Barren to Desert
+terraform_link = {
+	from = "pc_semi_barren"
+	to = "pc_desert"
+	
+	duration = 1500
+	
+	#cost
+	energy = 2000
+	resources = {
+		sr_terraform_gases = 3
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		has_technology = "tech_advanced_terraforming"
+	}
+}
+# Semi-Barren to Arid
+terraform_link = {
+	from = "pc_semi_barren"
+	to = "pc_arid"
+	
+	duration = 1500
+	
+	#cost
+	energy = 2000
+	resources = {
+		sr_terraform_gases = 3
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		has_technology = "tech_advanced_terraforming"
+	}
+}
+
+# Cold Greenhouse to Arctic
+terraform_link = {
+	from = "pc_greenhouse_cold"
+	to = "pc_arctic"
+	
+	duration = 1500
+	
+	#cost
+	energy = 2000
+	resources = {
+		sr_terraform_gases = 3
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		has_technology = "tech_advanced_terraforming"
+	}
+}
+# Cold Greenhouse to ocean
+terraform_link = {
+	from = "pc_greenhouse_cold"
+	to = "pc_ocean"
+	
+	duration = 1500
+	
+	#cost
+	energy = 2000
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 3
+	}
+	
+	condition = {
+		has_technology = "tech_advanced_terraforming"
+	}
+}
+
+# Frozen to Arctic
+terraform_link = {
+	from = "pc_frozen_large"
+	to = "pc_arctic"
+	
+	duration = 1500
+	
+	#cost
+	energy = 2000
+	resources = {
+		sr_terraform_gases = 3
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		has_technology = "tech_advanced_terraforming"
+	}
+}
+# Frozen to Tundra
+terraform_link = {
+	from = "pc_frozen_large"
+	to = "pc_tundra"
+	
+	duration = 1500
+	
+	#cost
+	energy = 2000
+	resources = {
+		sr_terraform_gases = 3
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		has_technology = "tech_advanced_terraforming"
+	}
+}
