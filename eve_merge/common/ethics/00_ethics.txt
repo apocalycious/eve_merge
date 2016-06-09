@@ -1,0 +1,427 @@
+ethic_categories = {
+	col = {
+		opinions = { 1 1 1 1 1 }
+	}
+	
+	xen = {
+		opinions = { 0 0 1 1 1 }
+	}
+	
+	mil = {
+		opinions = { 1 1 1 1 1 }
+	}
+	
+	spi = {
+		opinions = { 1 1 1 1 1 }
+	}
+}
+
+ethic_fanatic_collectivist = {
+	cost = 2
+	category = "col"
+	category_value = 0
+	
+	pop_modifier = {
+		pop_slavery_tolerance = 1.0
+		pop_food_req_mult = 0.05
+		pop_growth_req_mult = -0.10
+		tile_resource_food_mult = 0.10
+		pop_other_species_happiness = -0.05
+		pop_happiness = 0.05
+		pop_migration_time = 0.05
+		pop_resettlement_cost_mult = 0.05
+		planet_colony_development_speed_mult = 0.10
+
+	}
+
+	country_modifier = {
+		building_time_mult = -0.10
+		slave_production_output = 0.10
+		country_sector_cap = 2
+		country_core_sector_planet_cap = 3
+	}
+		
+	
+	slavery_ethos = yes
+	
+	#random_weight = {   # Possible to add weighted modifiers to the generation of these
+	#	modifier = {
+	#		add = 100000
+	#		is_species_class = "MAM"
+	#	}
+	#}
+	
+}
+
+ethic_collectivist = {
+	cost = 1
+	category = "col"
+	category_value = 1
+	
+	slavery_ethos = yes
+	
+	pop_modifier = {
+		pop_slavery_tolerance = 0.50
+		pop_growth_req_mult = -0.05
+		tile_resource_food_mult = 0.05
+		planet_colony_development_speed_mult = 0.05
+
+	}
+
+	country_modifier = {
+		building_time_mult = -0.05
+	}
+}
+
+ethic_fanatic_individualist = {
+	cost = 2
+	category = "col"
+	category_value = 4
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.1
+	
+	pop_modifier = {
+		tile_resource_food_mult = -0.10
+		pop_other_species_happiness = -0.05
+		pop_growth_req_mult = -0.05
+		pop_resettlement_cost_mult = -0.10
+		pop_migration_time = -0.10
+	}
+
+	country_modifier = {
+		species_leader_exp_gain = 0.05
+		shipsize_colonizer_build_cost_mult = -0.10
+		planet_colony_development_speed_mult = -0.10
+		country_sector_cap_add = 5
+		country_core_sector_planet_cap = 5
+	}
+}
+
+ethic_individualist = {
+	cost = 1
+	category = "col"
+	category_value = 3
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.05
+	
+	pop_modifier = {
+		tile_resource_food_mult = -0.05
+		pop_resettlement_cost_mult = -0.05
+		pop_migration_time = -0.05
+	}
+
+	country_modifier = {
+		species_leader_exp_gain = 0.01
+		shipsize_colonizer_build_cost_mult = -0.05
+		planet_colony_development_speed_mult = -0.05
+	}
+}
+
+ethic_fanatic_xenophobe = {
+	cost = 2
+	category = "xen"
+	category_value = 0
+	
+	slavery_ethos = yes
+	
+	pop_modifier = {
+		pop_xenophobia = 0.35
+		pop_alien_slavery_tolerance = 1.0
+		pop_other_species_happiness = -0.10
+		slave_production_output = 0.20
+	}
+	
+	country_modifier = {
+		planet_sensor_range_mult = 0.20
+		max_embassies = -2
+	}
+}
+
+ethic_xenophobe = {
+	cost = 1
+	category = "xen"
+	category_value = 1
+	
+	slavery_ethos = yes
+	
+	pop_modifier = {
+		pop_xenophobia = 0.15
+		pop_alien_slavery_tolerance = 0.5
+		pop_other_species_happiness = -0.05
+		slave_production_output = 0.10
+	}
+	
+	country_modifier = {
+		planet_sensor_range_mult = 0.10
+		max_embassies = -1
+	}
+}
+
+ethic_fanatic_xenophile = {
+	cost = 2
+	category = "xen"
+	category_value = 4
+	
+	pop_modifier = {
+		pop_xenophobia = -0.35
+		pop_other_species_happiness = 0.10
+		pop_happiness = 0.10
+		pop_alien_slavery_tolerance = -1.0
+	}
+	
+	country_modifier = {
+		planet_sensor_range_mult = 0.20
+		max_embassies = 5
+	}
+}
+
+ethic_xenophile = {
+	cost = 1
+	category = "xen"
+	category_value = 3
+	
+	pop_modifier = {
+		pop_xenophobia = -0.15
+		pop_other_species_happiness = 0.05
+		pop_happiness = 0.05
+		pop_alien_slavery_tolerance = -0.5
+	}
+	
+	country_modifier = {
+		planet_sensor_range_mult = 0.10
+		max_embassies = 3
+	}
+}
+
+ethic_fanatic_militarist = {
+	cost = 2
+	category = "mil"
+	category_value = 0
+	
+	pop_modifier = {
+		pop_war_happiness = 0.20
+		pop_other_species_happiness = -0.10
+		pop_happiness = -0.10
+		garrison_health = 0.10
+		pop_fortification_defense = 0.10
+		tile_resource_physics_research_mult = 0.10
+		tile_resource_society_research_mult = -0.10
+	}
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.05
+	
+	country_modifier = {
+		rivalry_influence_gain = 1.0
+		alliance_influence_cost = -0.25
+		army_health_mult = 0.10
+		army_damage_mult = 0.10
+		army_morale = 0.10
+		army_upkeep_mult = -0.10
+		planet_army_build_cost_mult = -0.10
+		ship_hitpoints_mult = 0.10
+		ship_armor_mult = 0.10
+		shipcalss_military_station_hit_points_mult = 0.10
+		ship_shield_hp_mult = 0.10
+		shipsize_corvette_build_cost_mult = -0.10
+		shipsize_destroyer_build_cost_mult = -0.10
+		shipsize_cruiser_build_cost_mult = -0.05
+		shipsize_battleship_build_cost_mult = -0.05
+		ship_upkeep_mult = -0.10
+		shipsize_military_station_small_upkeep_mult = -0.10
+		shipsize_military_station_medium_upkeep_mult = -0.10
+		shipsize_military_station_large_upkeep_mult = -0.10
+		planet_sensor_range_mult = 0.10
+		ship_sensor_range_mult = 0.10
+		spaceport_ship_hit_points_mult = 0.10
+		navy_size_mult = 0.25
+	}
+}
+
+ethic_militarist = {
+	cost = 1
+	category = "mil"
+	category_value = 1
+	
+	pop_modifier = {
+		pop_war_happiness = 0.10
+		pop_other_species_happiness = -0.05
+		garrison_health = 0.10
+		tile_resource_physics_research_mult = 0.05
+		tile_resource_society_research_mult = -0.05
+	}
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.025
+	
+	country_modifier = {
+		rivalry_influence_gain = 0.50
+		alliance_influence_cost = -0.15
+		army_health_mult = 0.05
+		ship_hitpoints_mult = 0.05
+		ship_armor_mult = 0.05
+		shipclass_military_station_hit_points_mult = 0.05
+		ship_shield_hp_mult = 0.05
+		planet_sensor_range_mult = 0.05
+		ship_sensor_range_mult = 0.05
+		spaceport_ship_hit_points_mult = 0.05
+		navy_size_mult = 0.10
+	}
+}
+
+ethic_fanatic_pacifist = {
+	cost = 2
+	category = "mil"
+	category_value = 4
+	
+	pop_modifier = {
+		pop_war_happiness = -0.25
+		pop_happiness = 0.05
+		tile_resource_minerals_mult = 0.10
+		tile_resource_energy_mult = 0.10
+		tile_resource_society_research_mult = 0.10
+	}
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.1
+	
+	country_modifier = {
+		max_embassies = 7
+		navy_size_mult = -0.25
+		rivalry_influence_gain = -0.50
+		alliance_influence_cost = -0.50
+		shipsize_science_build_cost_mult = -0.10
+		shipsize_orbital_station_build_cost_mult = -0.10
+		science_ship_survey_speed = 0.10
+		all_technology_research_speed = 0.10	
+	}
+}
+
+ethic_pacifist = {
+	cost = 1
+	category = "mil"
+	category_value = 3
+	
+	pop_modifier = {
+		pop_war_happiness = -0.10
+		tile_resource_minerals_mult = 0.05
+		tile_resource_energy_mult = 0.05
+		tile_resource_society_research_mult = 0.05
+	}
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.05
+	
+	country_modifier = {
+		max_embassies = 2
+		navy_size_mult = -0.10
+		rivalry_influence_gain = -0.25
+		alliance_influence_cost = -0.25
+		shipsize_orbital_station_build_cost_mult = -0.05
+		science_ship_survey_speed = 0.05
+	}
+}
+
+ethic_fanatic_spiritualist = {
+	cost = 2
+	category = "spi"
+	category_value = 0
+		
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.1
+	
+	pop_modifier = {
+		pop_happiness = 0.10
+		pop_other_species_happiness = 0.10
+		pop_fortification_defense = 0.10
+		pop_environment_tolerance = 0.10
+		tile_resource_engineering_research_mult = -0.10
+		tile_resource_physics_research_mult = -0.10
+		tile_resource_society_research_mult = 0.10
+	}
+	
+	country_modifier = {
+		country_leader_cap = 5
+		leader_influence_cost = -0.10
+		leader_age = 9
+		species_leader_exp_gain = 0.10
+		army_morale = 0.10
+		edict_length_mult = 0.10
+	}
+}
+
+ethic_spiritualist = {
+	cost = 1
+	category = "spi"
+	category_value = 1
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.05
+	
+	pop_modifier = {
+		pop_happiness = 0.10
+		pop_other_species_happiness = 0.05
+		pop_environment_tolerance = 0.05
+		tile_resource_engineering_research_mult = -0.05
+		tile_resource_physics_research_mult = -0.05
+		tile_resource_society_research_mult = 0.05
+	}
+	
+	country_modifier = {
+		country_leader_cap = 2
+		leader_influence_cost = -0.05
+		leader_age = 4
+		species_leader_exp_gain = 0.05
+		edict_length_mult = 0.05
+	}
+}
+
+ethic_materialist = {
+	cost = 1
+	category = "spi"
+	category_value = 3
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.05
+	
+	pop_modifier = {
+		tile_resource_food_mult = -0.05
+		tile_resource_engineering_research_mult = 0.05
+		tile_resource_physics_research_mult = 0.05
+	}
+	
+	country_modifier = {
+		building_time_mult = -0.05
+		planet_building_cost_mult = -0.05
+	}
+	
+}
+
+ethic_fanatic_materialist = {
+	cost = 2
+	category = "spi"
+	category_value = 4
+	
+	# Pop happiness modifier vs opposing government ethic. Multiplied with 2 vs opposing Fanatic ethic.
+	opposite_dislike = -0.1
+	
+	pop_modifier = {
+		tile_resource_engineering_research_mult = 0.10
+		tile_resource_physics_research_mult = 0.10
+		tile_resource_society_research_mult = -0.05
+		tile_resource_food_mult = -0.10	
+		pop_happiness = -0.05
+	}
+	
+	country_modifier = {
+		shipsize_constructor_build_cost_mult = -0.10
+		shipsize_mining_station_build_cost_mult = -0.10
+		building_time_mult = -0.10
+		planet_building_cost_mult = -0.10
+		slave_production_output = 0.10
+		leader_age = -6
+		navy_size = -0.05
+	}
+}

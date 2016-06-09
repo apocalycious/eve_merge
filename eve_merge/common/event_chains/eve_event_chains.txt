@@ -1,0 +1,13 @@
+ephialtes_worm_chain = {
+	icon = "gfx/interface/icons/situation_log/situation_log_swarm.dds"
+	picture = GFX_evt_brainworm_02
+}
+paul_star_chain = {
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+	picture = GFX_evt_physics_research
+	counter = {
+		paul_stars_surveyed = {
+			max = 4
+		}
+	}
+}

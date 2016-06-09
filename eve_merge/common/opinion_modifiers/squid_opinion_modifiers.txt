@@ -1,0 +1,59 @@
+opinion_allowed_merchant_access = {
+	opinion = {
+		base = 30
+	}
+
+	decay = {
+		base = 5
+	}
+}
+opinion_refused_merchant_access = {
+	opinion = {
+		base = -40
+	}
+
+	decay = {
+		base = 5
+	}
+}
+opinion_mutual_scam = {
+	opinion = {
+		base = 50
+	}
+
+	decay = {
+		base = 5
+	}
+}
+opinion_peaceful_trade = {
+	opinion = {
+	base = 100
+	}
+
+	decay = {
+		base = 5
+	}
+}
+
+opinion_empire_focus = {
+	opinion = {
+		base = 0
+		modifier = {
+			add = -3
+			FROM = {
+				has_policy_flag = empire_focus_expansionist
+			}
+		modifier = {
+			add = 1
+			FROM = {
+				has_policy_flag = empire_focus_isolationist
+			}
+		}	
+	}
+	
+	accumulative = yes
+	
+	decay = {
+		base = 2
+	}
+}

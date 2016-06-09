@@ -1,0 +1,241 @@
+﻿l_english:
+##########################################################################
+# 
+# #####
+#
+# Edicts++ by Aitherix
+# Last Updated on 5/17/2016
+# Edict Descriptions
+#
+# #####
+# 
+##########################################################################
+
+#  Unique Ethos Edicts
+
+ edict_corps_of_engineers:0 "The Balance of Power"
+ edict_corps_of_engineers_desc:0 "This Edict dispatches corps of diplomats to help shift the galactic Balance of Power in the empire's favor.\n\n"
+
+ edict_orbital_privatization:0 "Privatization and Privateering"
+ edict_orbital_privatization_desc:0 "This Edict allows private corporations to obtain licenses to build and maintain warships, boosting repair efficiency.\n\n"
+
+ edict_alien_snack_food:0 "Alien Snack Food"
+ edict_alien_snack_food_desc:0 "This Edict approves the collection and consumption of (apparently) pre-sentient bite-size aliens known as Poopplers as a healthy and nutritious food source.\n\n"
+
+ edict_xeno_news_network:0 "Xeno News Network"
+ edict_xeno_news_network_desc:0 "This Edict sets up FTL communications relays to allow for the importation of xeno-produced popular media.\n\n"
+ 
+ edict_social_enlightenment:0 "Social Enlightenment"
+ edict_social_enlightenment_desc:0 "This Edict organizes and supports efforts to bring about a glorious cultural and social revolution for our population.\n\n"
+ 
+ edict_mass_conscription:0 "Mass Conscription"
+ edict_mass_conscription_desc:0 "This Edict calls the population forth to national military service for the strength and defense of our empire.\n\n"
+ 
+ edict_better_living_through_science:0 "Better Living Through Science"
+ edict_better_living_through_science_desc:0 "This Edict encourages the research and development of practical solutions to the simple, everyday problems of life.\n\n"
+ 
+ edict_religious_tithes:0 "Religious Tithes"
+ edict_religious_tithes_desc:0 "This Edict causes our religious leaders to encourage the population to contribute credits to the greater glory of the Gods, and the empire.\n\n"
+ 
+ # Planet Edicts
+ 
+ edict_civil_aerospace_grants:0 "Civil Space Grants"
+ edict_civil_aerospace_grants_desc:0 "Grants to private pilots and corporations will spread our influence outside of this system.\n\n"
+ 
+ #edict_research_subsidies:0 "Research Subsidies"
+ #edict_research_subsidies_desc:0 "This is likely to be removed.\n\n"
+ 
+ edict_tax_exempt:0 "Tax Exemption"
+ edict_tax_exempt_desc:0 "Exempt this planet from empire taxation.\n\n"
+ 
+ # Ruler Traits
+ 
+ trait_ruler_untrustworthy:0 "Untrustworthy"
+ trait_ruler_untrustworthy_desc:0 "This leader is not trusted by those around them."
+  
+ trait_ruler_micromanager:0 "Micromanager"
+ trait_ruler_micromanager_desc:0 "This leader is unable to delegate tasks, insisting on being overly involved in every small decision."
+ 
+ trait_ruler_scandalous:0 "Scandalous"
+ trait_ruler_scandalous_desc:0 "This leader is an embarrassment to their people."
+ 
+ trait_ruler_corrupt:0 "Corrupt"
+ trait_ruler_corrupt_desc:0 "This leader never misses an opportunity to line their own pockets."
+ 
+ trait_ruler_skeptic:0 "Skeptic"
+ trait_ruler_skeptic_desc:0 "This leader is skeptical and wary of technological developments."
+ 
+ trait_ruler_futurist:0 "Futurist"
+ trait_ruler_futurist_desc:0 "This leader looks boldly to the future."
+ 
+ trait_ruler_insolent:0 "Insolent"
+ trait_ruler_insolent_desc:0 "This leader's rude and borish behavior Trumps all."
+ 
+ trait_ruler_humble:0 "Humble"
+ trait_ruler_humble_desc:0 "This leader is humble in victory and magnanimous in defeat."
+  
+ # New Policies
+ 
+ policy_economy_policy:0 "Economic Theory"
+ policy_economy_policy_desc:0 "We can set our economic policies."
+ laissez_faire:0 "Laissez-Faire"
+ laissez_faire_name:0 "Laissez-Faire Economy"
+ laissez_faire_desc:0 "Allow the invisible hand of the free market to chart the course of our economy.\n\n"
+ econ_balanced:0 "Balanced"
+ econ_balanced_name:0 "Balanced Economy"
+ econ_balanced_desc:0 "Take a middle ground between regulation and the free market.\n\n"
+ highly_regulated:0 "Command Economy"
+ highly_regulated_name:0 "Command Economy"
+ highly_regulated_desc:0 "Our leaders know best how to maximize economic output.\n\n"
+
+ policy_las_military:0 "Military Readiness"
+ policy_las_military_desc:0 "Determine our general military readiness."
+ mil_balanced:0 "Balanced"
+ mil_balanced_name:0 "Balanced Military Readiness"
+ mil_balanced_desc:0 "Our military will take a balanced stance, conducting occasional drills and training operations.\n\n"
+ high_alert:0 "High Alert"
+ high_alert_name:0 "Military on High Alert"
+ high_alert_desc:0 "Fleets will be kept at the highest level of readiness, remaining vigilant for any and all possible threats.\n\n"
+ stand_down:0 "Stand Down"
+ stand_down_name:0 "Military Stands Down"
+ stand_down_desc:0 "Personnel are given liberal leave, maintenance is deferred, and training regimes are light.\n\n"
+ 
+ policy_las_trade:0 "Interstellar Trade"
+ policy_las_trade_desc:0 "Trade between our worlds and alien systems is inevitable, though it is important to make sure we get the best deal."
+ 
+ trade_balanced:0 "Balanced"
+ trade_balanced_name:0 "Balanced"
+ trade_balanced_desc:0 "A balanced trade policy."
+ 
+ protectionist:0 "Protectionist"
+ protectionist_name:0 "Protectionist"
+ protectionist_desc:0 "Maintain tariffs and quotas on foreign goods to protect our own manufacturers and traders.\n\n"
+ 
+ free_trade:0 "Free Trade"
+ free_trade_name:0 "Free Trade"
+ free_trade_desc:0 "Allow both our traders and foreign merchants to trade without intervention from the authorities.\n\n"
+ 
+ policy_las_social:0 "Social Mores"
+ policy_las_social_desc:0 "Guiding the moral arc of our civilization is of the utmost importance."
+ 
+ social_balanced:0 "Balanced"
+ social_balanced_name:0 "Balanced"
+ social_balanced_desc:0 "Take no stance on galactic social issues."
+ 
+ repressive_mores:0 "Repressive"
+ repressive_mores_name:0 "Repressive"
+ repressive_mores_desc:0 "Enforcing our cultural values and morals by repressing the population will ensure our subjects do not deviate from accepted norms.\n\n"
+ 
+ permissive_mores:0 "Permissive"
+ permissive_mores_name:0 "Permissive"
+ permissive_mores_desc:0 "Allow our population to live and let live.\n\n"
+ 
+ policy_las_political:0 "Political Access"
+ policy_las_political_desc:0 "Decide who has access to the centers of power, and who does not."
+ 
+ political_balanced:0 "Balanced"
+ political_balanced_name:0 "Balanced"
+ political_balanced_desc:0 "A balanced approach to political access.\n\n"
+ 
+ merit_based:0 "Merit-based"
+ merit_based_name:0 "Merit-Based"
+ merit_based_desc:0 "Only the best and brightest are selected to lead.\n\n"
+ 
+ loyalty_based:0 "Loyalty-based"
+ loyalty_based_name:0 "Loyalty-based"
+ loyalty_based_desc:0 "Leadership positions are reserved for those with demonstrated loyalty.\n\n"
+ 
+ policy_las_taxation:0 "Taxation"
+ policy_las_taxation_desc:0 "The collection of taxes is the fuel that drives the empire."
+ 
+ balanced_taxes:0 "Balanced"
+ balanced_taxes_name:0 "Balanced"
+ balanced_taxes_desc:0 "A balanced tax policy.\n\n"
+ 
+ heavy_taxes:0 "Heavy"
+ heavy_taxes_name:0 "Heavy Taxation"
+ heavy_taxes_desc:0 "The population will bear a heavy burden, but the empire's coffers will be full.\n\n"
+ 
+ light_taxes:0 "Light"
+ light_taxes_name:0 "Light Taxation"
+ light_taxes_desc:0 "The tax burden will be light to unleash the economy's full potential.\n\n"
+ 
+ policy_las_development:0 "Development Focus"
+ policy_las_development_desc:0 "All interstellar empires must deal with the tension between orbital and terrestrial-based development."
+ 
+ development_balanced:0 "Balanced"
+ development_balanced_name:0 "Balanced"
+ development_balanced_desc:0 "Balance development projects between orbital and terrestrial matters.\n\n"
+ 
+ orbital_development:0 "Orbital"
+ orbital_development_name:0 "Orbital"
+ orbital_development_desc:0 "Focus on orbital projects.\n\n"
+ 
+ terrestrial_development:0 "Terrestrial"
+ terrestrial_development_name:0 "Terrestrial"
+ terrestrial_development_desc:0 "Focus on terrestrial projects.\n\n"
+ 
+ policy_las_foreign:0 "Foreign Policy"
+ policy_las_foreign_desc:0 "Diplomacy and war are certain in these times of galactic instability."
+ 
+ foreign_balanced:0 "Balanced"
+ foreign_balanced_name:0 "Balanced"
+ foreign_balanced_desc:0 "A balanced foreign policy.\n\n"
+ 
+ isolationist:0 "Isolationist"
+ isolationist_name:0 "Isolationist"
+ isolationist_desc:0 "Prioritize our own worlds, and stay out of xeno affairs.\n\n"
+ 
+ interventionist:0 "Interventionist"
+ interventionist_name:0 "Interventionist"
+ interventionist_desc:0 "The affairs of others are of immediate concern to our very survival.\n\n"
+ 
+ # Governments
+ 
+ ind_democracy:0 "Semi-Autonomous Confederacy"
+ ind_democracy_desc:0 "§LThis government is an individualist form of democracy. Government functions are largely de-centralized, allowing a high degree of local control over economic and political decisions.§!"
+ 
+ ind_oligarchy:0 "Revolutionary Republic"
+ ind_oligarchy_desc:0 "§LThis government is an individualist form of oligarchy, where the revolutionary ideologies of liberty, equality, and fraternity motivate the rulers and the population.§!"
+ 
+ ind_autocracy:0 "Anarchic Tyranny"
+ ind_autocracy_desc:0 "§LThis government is an individualist form of autocracy, where only a minimal centralized government exists. Personal autonomy and individual freedoms are the highest ideals.§!"
+ ind_autocracy_special:0 "Colony ships are privatized (cheaper and develop faster), though fewer core sector planets are allowed."
+ 
+ col_democracy:0 "Social Democracy"
+ col_democracy_desc:0 "§LThis government is a collectivist form of democracy, where the government's primary concern is the welfare of the people.§!"
+ 
+ col_oligarchy:0 "Feudal Aristocracy"
+ col_oligarchy_desc:0 "§LThis government is a collectivist form of oligarchy, where landed nobles rule a population of serfs tied by duty and honor to manor estates.§!"
+ 
+ col_autocracy:0 "Communist Dictatorship"
+ col_autocracy_desc:0 "§LThis government is a collectivist form of autocracy, where the state owns the means of economic production and plans and directs the economy and society.§!"
+ 
+ xenophobe_oligarchy:0 "Tribal Council"
+ xenophobe_oligarchy_desc:0 "§LThis government is a xenophobic form of oligarchy, where power is invested in a council of tribal chiefs who view outsiders with skepticism and distrust.§!"
+ 
+ ind_democracy2:0 "Pan-Galactic League"
+ ind_democracy2_desc:0 "§LThis government is an advanced form of individualist democracy, where an elected judiciary oversees a de-centralized league of fiercely independent sectors.§!"
+ 
+ col_autocracy2:0 "Symbiotic Utopia"
+ col_autocracy2_desc:0 "§LThis government is an advanced form of collectivist autocracy, where the ruler leads a post-personhood communal society that is completely unified in support of collective goals.§!"
+ 
+ xenophobe_oligarchy2:0 "Vestal Senate"
+ xenophobe_oligarchy2_desc:0 "§LThis government is an advanced form of xenophobic oligarchy. Power is held by a small number of senators of pure lineage and high birth, untainted by xeno-integration.§!"
+ 
+ RT_SENATOR:0 "Senator"
+ RT_PREMIER:0 "Premier"
+ RT_CITIZEN:0 "Citizen"
+ RT_LORD:0 "Lord"
+ RT_LADY:0 "Lady"
+ RT_CHAIRMAN:0 "Chairman"
+ RT_CHAIRWOMAN:0 "Chairwoman"
+ RT_CHIEF:0 "Chief"
+ RT_DEARLEADER:0 "Dear Leader"
+ RT_JUSTICE:0 "Chief Justice"
+ HT_SCION:0 "Scion"
+ 
+ START_SCREEN_PART_TWO_IND_DEMOCRACY:0 "Fiercely independent, we refused to compromise our highest ideals of personal liberty throughout our history on this planet. The various nation-states did, however, collaborate to form a loose confederation in order to provide common societal benefits and propel our civilization toward distant stars."
+ START_SCREEN_PART_TWO_COL_AUTOCRACY:0 "After millenia of petty squabbles and brutal warfare, we forged a shared consensus of values and goals that define us and appointed a dictator to drive our civilization forward, together."
+ START_SCREEN_PART_TWO_XENOPHOBE_OLIGARCHY:0 "Our citizens are proud of their heritage and honor and view outsiders with distrust and uncertainty. We recently received hints that we are perhaps not alone in this galaxy, and brought our many tribes together to form a council in order to direct the defense against what lies beyond the thin atmosphere of our homeworld."
+ 
