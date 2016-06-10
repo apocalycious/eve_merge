@@ -1,0 +1,143 @@
+ship_behavior = {
+	name = "rangefinder_5"
+	preferred_attack_range = median
+	formation_distance = 5
+	return_to_formation_distance = 5
+	collision_awareness = 1.0
+	attack_move_pattern = orbit
+	passive_move_pattern = charge
+	
+	desc = "rangefinder_5_desc"
+	
+	targeting = {
+		keep_previous_target_bonus		= 100		#flat bonus for keeping previous target
+		damage_value					= 5			#score += estimated damage dealt ( including damage to shields ) * <damage_value>
+		low_health_bonus				= 50		#flat bonus if estimated damage will kill the target in a few shots
+		shield_focus_value				= 5			#score += estimated shield damage dealt * shield damage bonus * <shield_focus_value>
+		armor_focus_value				= 5			#score += enemy armor * shield penetration value * <armor_focus_value>
+		already_incoming_damage_penalty = 200		#score -= ( fleet total estimated damage to enemy / enemy max HP ) * <already_incoming_damage_penalty>.
+		distance_to_fleet_penalty		= 20		#score -= distance between enemy and fleet * <distance_to_fleet_penalty>
+		size_difference_penalty			= 1000		#score -= Abs( ship size - enemy ship size ) * <size_difference_penalty>. "Pick a fight with someone your own size!"
+		civilian_target_penalty			= 100000	#if( target is civilian ) score -= <civilian_target_penalty>
+	}
+}
+
+ship_behavior = {
+	name = "rangefinder_15"
+	preferred_attack_range = median
+	formation_distance = 15
+	return_to_formation_distance = 15
+	collision_awareness = 1.0
+	attack_move_pattern = orbit
+	passive_move_pattern = charge
+	
+	desc = "rangefinder_15_desc"
+	
+	targeting = {
+		keep_previous_target_bonus		= 100		#flat bonus for keeping previous target
+		damage_value					= 5			#score += estimated damage dealt ( including damage to shields ) * <damage_value>
+		low_health_bonus				= 50		#flat bonus if estimated damage will kill the target in a few shots
+		shield_focus_value				= 5			#score += estimated shield damage dealt * shield damage bonus * <shield_focus_value>
+		armor_focus_value				= 5			#score += enemy armor * shield penetration value * <armor_focus_value>
+		already_incoming_damage_penalty = 200		#score -= ( fleet total estimated damage to enemy / enemy max HP ) * <already_incoming_damage_penalty>.
+		distance_to_fleet_penalty		= 20		#score -= distance between enemy and fleet * <distance_to_fleet_penalty>
+		size_difference_penalty			= 1000		#score -= Abs( ship size - enemy ship size ) * <size_difference_penalty>. "Pick a fight with someone your own size!"
+		civilian_target_penalty			= 100000	#if( target is civilian ) score -= <civilian_target_penalty>
+	}
+}
+
+ship_behavior = {
+	name = "rangefinder_25"
+	preferred_attack_range = median
+	formation_distance = 25
+	return_to_formation_distance = 25
+	collision_awareness = 1.0
+	attack_move_pattern = orbit
+	passive_move_pattern = charge
+	
+	desc = "rangefinder_25_desc"
+	
+	targeting = {
+		keep_previous_target_bonus		= 100		#flat bonus for keeping previous target
+		damage_value					= 5			#score += estimated damage dealt ( including damage to shields ) * <damage_value>
+		low_health_bonus				= 50		#flat bonus if estimated damage will kill the target in a few shots
+		shield_focus_value				= 5			#score += estimated shield damage dealt * shield damage bonus * <shield_focus_value>
+		armor_focus_value				= 5			#score += enemy armor * shield penetration value * <armor_focus_value>
+		already_incoming_damage_penalty = 200		#score -= ( fleet total estimated damage to enemy / enemy max HP ) * <already_incoming_damage_penalty>.
+		distance_to_fleet_penalty		= 20		#score -= distance between enemy and fleet * <distance_to_fleet_penalty>
+		size_difference_penalty			= 1000		#score -= Abs( ship size - enemy ship size ) * <size_difference_penalty>. "Pick a fight with someone your own size!"
+		civilian_target_penalty			= 100000	#if( target is civilian ) score -= <civilian_target_penalty>
+	}
+}
+
+ship_behavior = {
+	name = "rangefinder_35"
+	preferred_attack_range = median
+	formation_distance = 35
+	return_to_formation_distance = 35
+	collision_awareness = 1.0
+	attack_move_pattern = follow
+	passive_move_pattern = charge
+	
+	desc = "rangefinder_35_desc"
+	
+	targeting = {
+		keep_previous_target_bonus		= 100		#flat bonus for keeping previous target
+		damage_value					= 5			#score += estimated damage dealt ( including damage to shields ) * <damage_value>
+		low_health_bonus				= 50		#flat bonus if estimated damage will kill the target in a few shots
+		shield_focus_value				= 5			#score += estimated shield damage dealt * shield damage bonus * <shield_focus_value>
+		armor_focus_value				= 5			#score += enemy armor * shield penetration value * <armor_focus_value>
+		already_incoming_damage_penalty = 200		#score -= ( fleet total estimated damage to enemy / enemy max HP ) * <already_incoming_damage_penalty>.
+		distance_to_fleet_penalty		= 20		#score -= distance between enemy and fleet * <distance_to_fleet_penalty>
+		size_difference_penalty			= 1000		#score -= Abs( ship size - enemy ship size ) * <size_difference_penalty>. "Pick a fight with someone your own size!"
+		civilian_target_penalty			= 100000	#if( target is civilian ) score -= <civilian_target_penalty>
+	}
+}
+
+ship_behavior = {
+	name = "rangefinder_45"
+	preferred_attack_range = median
+	formation_distance = 45
+	return_to_formation_distance = 45
+	collision_awareness = 1.0
+	attack_move_pattern = follow
+	passive_move_pattern = charge
+	
+	desc = "rangefinder_45_desc"
+	
+	targeting = {
+		keep_previous_target_bonus		= 100		#flat bonus for keeping previous target
+		damage_value					= 5			#score += estimated damage dealt ( including damage to shields ) * <damage_value>
+		low_health_bonus				= 50		#flat bonus if estimated damage will kill the target in a few shots
+		shield_focus_value				= 5			#score += estimated shield damage dealt * shield damage bonus * <shield_focus_value>
+		armor_focus_value				= 5			#score += enemy armor * shield penetration value * <armor_focus_value>
+		already_incoming_damage_penalty = 200		#score -= ( fleet total estimated damage to enemy / enemy max HP ) * <already_incoming_damage_penalty>.
+		distance_to_fleet_penalty		= 20		#score -= distance between enemy and fleet * <distance_to_fleet_penalty>
+		size_difference_penalty			= 1000		#score -= Abs( ship size - enemy ship size ) * <size_difference_penalty>. "Pick a fight with someone your own size!"
+		civilian_target_penalty			= 100000	#if( target is civilian ) score -= <civilian_target_penalty>
+	}
+}
+
+ship_behavior = {
+	name = "rangefinder_55"
+	preferred_attack_range = median
+	formation_distance = 55
+	return_to_formation_distance = 55
+	collision_awareness = 1.0
+	attack_move_pattern = follow
+	passive_move_pattern = charge
+	
+	desc = "rangefinder_55_desc"
+	
+	targeting = {
+		keep_previous_target_bonus		= 100		#flat bonus for keeping previous target
+		damage_value					= 5			#score += estimated damage dealt ( including damage to shields ) * <damage_value>
+		low_health_bonus				= 50		#flat bonus if estimated damage will kill the target in a few shots
+		shield_focus_value				= 5			#score += estimated shield damage dealt * shield damage bonus * <shield_focus_value>
+		armor_focus_value				= 5			#score += enemy armor * shield penetration value * <armor_focus_value>
+		already_incoming_damage_penalty = 200		#score -= ( fleet total estimated damage to enemy / enemy max HP ) * <already_incoming_damage_penalty>.
+		distance_to_fleet_penalty		= 20		#score -= distance between enemy and fleet * <distance_to_fleet_penalty>
+		size_difference_penalty			= 1000		#score -= Abs( ship size - enemy ship size ) * <size_difference_penalty>. "Pick a fight with someone your own size!"
+		civilian_target_penalty			= 100000	#if( target is civilian ) score -= <civilian_target_penalty>
+	}
+}

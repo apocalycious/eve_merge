@@ -1,0 +1,50 @@
+﻿l_english:
+####################################
+ # Frigate
+ #################################### 
+ FRIGATE_BOW_M1S2:0 "Fortune Breaker"
+ FRIGATE_BOW_S3:0 "Hope Breaker"
+ FRIGATE_BOW_S4:0 "Will Breaker"
+ FRIGATE_STERN_S2:0 "Flash Bulwark"
+ FRIGATE_STERN_S3:0 "Radiant Bulwark"
+ 
+ ####################################
+ # Escort
+ #################################### 
+ ESCORT_BOW_S3SHB:0 "Arrow Breaker"
+ ESCORT_BOW_S2SHB:0 "Bullet Breaker"
+ ESCORT_BOW_SHB:0 "Bolt Breaker"
+ ESCORT_STERN_M1:0 "Flash Bulwark"
+ ESCORT_STERN_S2:0 "Shine Bulwark"
+ 
+ ####################################
+ # Carrier
+ ####################################
+ FLEET_CARRIER_BOW_LHB:0 "Host Breaker"
+ FLEET_CARRIER_BOW_M2SHB:0 "Wasp Breaker"
+ FLEET_CARRIER_BOW_S2M1SHB:0 "Mass Breaker"
+ FLEET_CARRIER_BOW_S4SHB:0 "Horde Breaker"
+ FLEET_CARRIER_BOW_S1M1SHB:0 "Foe Breaker"
+ FLEET_CARRIER_MID_M2LHB:0 "Hive Core"
+ FLEET_CARRIER_MID_S4LHB:0 "Swarm Core"
+ FLEET_CARRIER_MID_S2M1LHB:0 "Horde Core"
+ FLEET_CARRIER_MID_S3LHB:0 "Linked Core"
+ FLEET_CARRIER_MID_LHB:0 "Flock Core"
+ FLEET_CARRIER_STERN_SHB:0 "Timeless Bulwark"
+ FLEET_CARRIER_STERN_S2M1:0 "Ageless Bulwark"
+ FLEET_CARRIER_STERN_M2:0 "Epoch Bulwark"
+ FLEET_CARRIER_STERN_S4:0 "Zenith Bulwark"
+ 
+  ####################################
+ # Interceptor
+ #################################### 
+ INTERCEPTOR_MID_M1:0 "Hunter Core"
+ INTERCEPTOR_MID_S2:0 "Trapper Core"
+ INTERCEPTOR_MID_S1:0 "Predator Core"
+ 
+   ####################################
+ # Assault Ship
+ #################################### 
+ ASSAULT_SHIP_MID_M1:0 "Hunter Core"
+ ASSAULT_SHIP_MID_M2:0 "Berserker Core"
+ ASSAULT_SHIP_MID_M1U:0 "Warrior Core"

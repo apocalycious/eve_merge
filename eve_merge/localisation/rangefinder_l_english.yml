@@ -1,0 +1,14 @@
+﻿l_english:
+
+ rangefinder_5:0 "Range Finder: 5 units"
+ rangefinder_5_desc:1 "Behaviour: orbit \nDistance to target: 5 units \nComment: Ideal for corvettes and destroyers with lots of small mounts. This range is safe for all weapons."
+ rangefinder_15:0 "Range Finder: 15 units"
+ rangefinder_15_desc:1 "Behaviour: orbit \nDistance to target: 15 units \nComment: Ship will try to orbit target at a distance of 15 units."
+ rangefinder_25:0 "Range Finder: 25 units"
+ rangefinder_25_desc:1 "Behaviour: orbit \nDistance to target: 25 units \nComment: Ship will try to orbit target at a distance of 25 units."
+ rangefinder_35:0 "Range Finder: 35 units"
+ rangefinder_35_desc:1 "Behaviour: orbit \nDistance to target: 35 units \nComment: Ship will try to orbit target at a distance of 35 units."
+ rangefinder_45:0 "Range Finder: 45 units"
+ rangefinder_45_desc:1 "Behaviour: orbit \nDistance to target: 45 units \nComment: Ship will try to orbit target at a distance of 45 units."
+ rangefinder_55:0 "Range Finder: 55 units"
+ rangefinder_55_desc:1 "Behaviour: stay away \nDistance to target: 55 units \nComment: Ship will try to retreat from aproaching enemies. This is the maximum range available. Only TACHYON LANCES, ARC EMITTERS and LARGE TORPEDOES can be used at this range (EXCEPT proton and neutron torpedoes)."

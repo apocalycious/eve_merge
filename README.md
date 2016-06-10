@@ -2,6 +2,8 @@
 My own merge of a handful of Stellaris mods that otherwise have compatibility problems.  This mod currently consists of the following mods, and basically all of the hard work is courtesy of the authors of the respective mods and not my own.
 
 ```
+* Advanced Fleet Operations
+	http://steamcommunity.com/sharedfiles/filedetails/?id=686641980
 * Better Empire Names
 	http://steamcommunity.com/sharedfiles/filedetails/?id=684475224
 * Enhanced Terraforming
@@ -20,8 +22,14 @@ My own merge of a handful of Stellaris mods that otherwise have compatibility pr
 	http://steamcommunity.com/sharedfiles/filedetails/?id=690089574
 * More Planet Types
 	http://steamcommunity.com/sharedfiles/filedetails/?id=694585917
+* New Ship Classes & More
+	http://steamcommunity.com/sharedfiles/filedetails/?id=683230077
+* Rangefinder
+	http://steamcommunity.com/sharedfiles/filedetails/?id=684750984
 * Stone's Politics Expansion
 	http://steamcommunity.com/sharedfiles/filedetails/?id=690755908
+* The Belt
+	http://steamcommunity.com/sharedfiles/filedetails/?id=694492075
 ```
 
 ##Installation##

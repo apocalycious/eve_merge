@@ -1,0 +1,32 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ship_computer_five"
+		texturefile = "gfx/interface/ship_parts/ship_part_computer_five.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_computer_fifteen"
+		texturefile = "gfx/interface/ship_parts/ship_part_computer_fifteen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_computer_twentyfive"
+		texturefile = "gfx/interface/ship_parts/ship_part_computer_twentyfive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_computer_thirtyfive"
+		texturefile = "gfx/interface/ship_parts/ship_part_computer_thirtyfive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_computer_fortyfive"
+		texturefile = "gfx/interface/ship_parts/ship_part_computer_fortyfive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_computer_fiftyfive"
+		texturefile = "gfx/interface/ship_parts/ship_part_computer_fiftyfive.dds"
+	}
+}

@@ -1,0 +1,15 @@
+﻿l_english:
+#S
+ tech_interceptors:1 "Interceptors"
+ tech_interceptors_desc:1 "Streamlined hull designs and efficient power systems allows the creation of Interceptor-class ships."
+ tech_assault_ships:1 "Assault Ships"
+ tech_assault_ships_desc:1 "Thicker hull designs and reinforced mounting points allows the creation of Assault Ship-class ships."
+ #M
+ tech_frigates:1 "Frigates"
+ tech_frigates_desc:1 "Integrated weapon targeting systems allows the creation of Frigate-class ships."
+ tech_escorts:1 "Escorts"
+ tech_escorts_desc:1 "Massive Destroyer frame modifications allows the creation of Escort-class ships."
+ #L
+ #XL
+ tech_fleet_carriers:1 "Fleet Carriers"
+ tech_fleet_carriers_desc:1 "Massive modifications to Battleships allow us to construct Fleet Carrier-class ships."

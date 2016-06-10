@@ -1,0 +1,7 @@
+component_set = {
+	key = "rangefinder_computers"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_computer"
+	icon_frame = 1	
+}

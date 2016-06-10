@@ -1,0 +1,32 @@
+fleet_carrier = {
+	max_speed = 2.5
+	acceleration = 0.15
+	rotation_speed = 0.1
+	combat_max_speed = 0.3
+	combat_rotation_speed = 0.01
+	collision_radius = 4
+	modifier = {
+		ship_evasion_mult = -0.85
+		ship_armor_add = 36
+	}
+	max_hitpoints = 2800
+	size_multiplier = 8
+	fleet_slot_size = 4
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 5
+	base_buildtime = 480
+	required_spaceport_level = 6
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	
+	prerequisites = { "tech_fleet_carriers" }
+	
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "rangefinder_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+}

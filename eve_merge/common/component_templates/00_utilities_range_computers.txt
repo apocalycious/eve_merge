@@ -1,0 +1,144 @@
+utility_component_template = {
+	key = "Range Finder: Default"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	cost = 0
+
+	ship_behavior = "default"
+
+	ai_weight = {
+		weight = 1
+	}
+	
+	class_restriction = { shipclass_military }
+	component_set = "rangefinder_computers"
+}
+
+utility_component_template = {
+	key = "Range Finder: Aggressive"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	cost = 1
+
+	ship_behavior = "aggressive"
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 2
+			has_country_flag = ai_flag_aggressive_personality
+		}
+	}
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "rangefinder_computers"
+}
+
+utility_component_template = {
+	key = "Range Finder: Defensive"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	cost = 1
+
+	ship_behavior = "defensive"
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 2
+			has_country_flag = ai_flag_defensive_personality
+		}
+	}
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "rangefinder_computers"
+}
+
+utility_component_template = {
+	key = "rangefinder_5"
+	size = small
+	icon = "GFX_ship_computer_five"
+	icon_frame = 1
+	cost = 5
+
+	ship_behavior = "rangefinder_5"
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "rangefinder_computers"
+}
+
+utility_component_template = {
+	key = "rangefinder_15"
+	size = small
+	icon = "GFX_ship_computer_fifteen"
+	icon_frame = 1
+	cost = 5
+
+	ship_behavior = "rangefinder_15"
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "rangefinder_computers"
+}
+
+utility_component_template = {
+	key = "rangefinder_25"
+	size = small
+	icon = "GFX_ship_computer_twentyfive"
+	icon_frame = 1
+	cost = 5
+
+	ship_behavior = "rangefinder_25"
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "rangefinder_computers"
+}
+
+utility_component_template = {
+	key = "rangefinder_35"
+	size = small
+	icon = "GFX_ship_computer_thirtyfive"
+	icon_frame = 1
+	cost = 5
+
+	ship_behavior = "rangefinder_35"
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "rangefinder_computers"
+}
+
+utility_component_template = {
+	key = "rangefinder_45"
+	size = small
+	icon = "GFX_ship_computer_fortyfive"
+	icon_frame = 1
+	cost = 5
+
+	ship_behavior = "rangefinder_45"
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "rangefinder_computers"
+}
+
+utility_component_template = {
+	key = "rangefinder_55"
+	size = small
+	icon = "GFX_ship_computer_fiftyfive"
+	icon_frame = 1
+	cost = 5
+
+	ship_behavior = "rangefinder_55"
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "rangefinder_computers"
+}

@@ -1,0 +1,39 @@
+﻿l_english:
+ ####################################
+ # Hull Sizes
+ ####################################
+
+ INTERCEPTOR:0 "Interceptor"
+ interceptor:0 "Interceptor"
+ interceptor_plural:0 "Interceptors"
+ ASSAULT_SHIP:0 "Assault Ship"
+ assault_ship:0 "Assault Ship"
+ assault_ship_plural:0 "Assault Ships"
+ FLEET_CARRIER:0 "Fleet Carrier"
+ fleet_carrier:0 "Fleet Carrier"
+ fleet_carrier_plural:0 "Fleet Carriers"
+ FRIGATE:0 "Frigate"
+ frigate:0 "Frigate"
+ frigate_plural:0 "Frigates"
+ ESCORT:0 "Escort"
+ escort:0 "Escort"
+ escort_plural:0 "Escorts"
+ 
+ ####################################
+ # Descriptions
+ ####################################
+ 
+ #S
+ TECH_UNLOCK_INTERCEPTOR_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Interceptor"
+ TECH_UNLOCK_INTERCEPTOR_CONSTRUCTION_DESC:0 "§HInterceptor§!\nA single-section sleek vessel built for chasing enemies, the Interceptor is designed to be evasive."
+ TECH_UNLOCK_ASSAULT_SHIP_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Assault Ship"
+ TECH_UNLOCK_ASSAULT_SHIP_CONSTRUCTION_DESC:0 "§HInterceptor§!\nA single-section ship armed with medium weapons, the Assault Ship is best for hunting Destroyers and larger."
+ #M
+ TECH_UNLOCK_FRIGATE_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Frigate"
+ TECH_UNLOCK_FRIGATE_CONSTRUCTION_DESC:0 "§HFrigate§!\nA two-section light Destroyer, the Frigate is outfit to hunt small ships."
+ TECH_UNLOCK_ESCORT_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Escort"
+ TECH_UNLOCK_ESCORT_CONSTRUCTION_DESC:0 "§HFrigate§!\nA two-section heavy Destroyer, the Escort uses strike craft to attack foes and defend fleets."
+ #L
+ #XL
+ TECH_UNLOCK_FLEET_CARRIER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Fleet Carrier"
+ TECH_UNLOCK_FLEET_CARRIER_CONSTRUCTION_DESC:0 "§HFleet Carrier§!\nA three-section massive Battleship, the Fleet Carrier unleashes swarms of fighters and bombers."

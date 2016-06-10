@@ -1,0 +1,33 @@
+frigate = {
+	max_speed = 5
+	acceleration = 0.4
+	rotation_speed = 0.15
+	combat_max_speed = 1.5
+	combat_rotation_speed = 0.75
+	collision_radius = 3
+	modifier = {
+		ship_armor_add = 4
+		ship_fire_rate_mult = 0.25
+	}
+	max_hitpoints = 450
+	size_multiplier = 2
+	fleet_slot_size = 2
+	section_slots = { "bow" = { locator = "part1" } "stern" = { locator = "part2" } }
+	num_target_locators = 4
+	icon_frame = 3
+	is_space_station = no
+	base_buildtime = 120
+	required_spaceport_level = 3
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	
+	prerequisites = { "tech_frigates" } 
+	
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "rangefinder_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+}
+
