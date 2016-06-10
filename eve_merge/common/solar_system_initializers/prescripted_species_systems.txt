@@ -189,16 +189,16 @@ sol_system_initializer = {
 		orbit_angle = 60
 		size = 15
 		has_ring = no
+		entity = "barren_planet_mars_entity"
 	}
 	
 	planet = {
 		name = "1 Ceres"
-		class = "pc_dwarf_planet_asteroid"
+		class = "pc_asteroid"
 		orbit_distance = 20
 		orbit_angle = -210
-		size = 5
+		size = 7
 		has_ring = no
-		entity = "cold_barren_planet_10_entity"
 	}
 	
 	planet = {

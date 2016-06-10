@@ -1,19 +1,16 @@
 # Planet Variables
 
 @planet_standard_scale = 11
-
 @habitable_planet_max_size = 25
 @habitable_planet_min_size = 12
 @habitable_moon_max_size = 12
 @habitable_moon_min_size = 8
-
 @habitable_min_distance = 60
 @habitable_max_distance = 120
 @hot_habitable_min_distance = 30
 @hot_habitable_max_distance = 90
 @cold_habitable_min_distance = 100
 @cold_habitable_max_distance = 160
-
 @habitable_spawn_odds = 2
 
 # ###########
@@ -244,25 +241,25 @@ pc_gas_giant = {
 	colonizable = no
 }
 
-pc_asteroid = {
-	entity = "asteroid"
-	entity_scale = 1.5
-	icon_frame = 18
-	
-	asteroid = yes
-	
-	spawn_odds = 8
-	
-	extra_orbit_size = 0
-	extra_planet_count = 0
-	
-	chance_of_ring = 0
-	
-	planet_size = 5
-	
-	colonizable = no
-	survey_time_factor = 0.5
-}
+#pc_asteroid = {
+#	entity = "asteroid"
+#	entity_scale = 1.5
+#	icon_frame = 18
+#	
+#	asteroid = yes
+#	
+#	spawn_odds = 10
+#	
+#	extra_orbit_size = 0
+#	extra_planet_count = 0
+#	
+#	chance_of_ring = 0
+#	
+#	planet_size = 5
+#	
+#	colonizable = no
+#	survey_time_factor = 0.5
+#}
 
 pc_molten = {
 	entity = "molten_planet"

@@ -18,6 +18,8 @@ tb_mountain_range = {
 				is_colonizable = yes
 				NOT = { is_planet_class = pc_ocean }
 				NOT = { is_planet_class = pc_continental }
+				NOT = { is_planet_class = pc_asteroid }
+				
 			}
 		}
 		modifier = {
@@ -25,12 +27,15 @@ tb_mountain_range = {
 			planet = {
 				is_colonizable = yes
 				is_planet_class = pc_continental
+				NOT = { is_planet_class = pc_asteroid }
+				
 			}
 		}
 		modifier = {
 				factor = 0.25
 				planet = {
 					has_modifier = "titanic_life"
+					NOT = { is_planet_class = pc_asteroid }
 				}
 		}
 	}
@@ -53,6 +58,8 @@ tb_active_volcano = {
 				NOT = { is_planet_class = pc_ocean }
 				NOT = { is_planet_class = pc_continental }
 				NOT = { is_planet_class = pc_greenhouse_hot }
+				NOT = { is_planet_class = pc_asteroid }
+				
 			}
 		}
 		modifier = {
@@ -60,6 +67,7 @@ tb_active_volcano = {
 			planet = {
 				is_colonizable = yes
 				is_planet_class = pc_continental
+				NOT = { is_planet_class = pc_asteroid }
 			}
 		}
 		modifier = {
@@ -70,12 +78,14 @@ tb_active_volcano = {
 					is_planet_class = pc_ocean
 					is_planet_class = pc_greenhouse_hot
 				}	
+				NOT = { is_planet_class = pc_asteroid }
 			}
 		}
 		modifier = {
 				factor = 0.25
 				planet = {
 					has_modifier = "titanic_life"
+					NOT = { is_planet_class = pc_asteroid }
 				}
 		}
 	}
@@ -107,6 +117,7 @@ tb_dangerous_wildlife = {
 			planet = {
 				is_colonizable = yes
 				NOT = { is_planet_class = pc_continental }
+				NOT = { is_planet_class = pc_asteroid }
 			}
 		}
 		modifier = {
@@ -114,18 +125,23 @@ tb_dangerous_wildlife = {
 			planet = {
 				is_colonizable = yes
 				is_planet_class = pc_continental
+				NOT = { is_planet_class = pc_asteroid }
 			}
 		}
 		modifier = {
 				factor = 2
 				planet = {
 					has_modifier = "dangerous_wildlife"
+					NOT = { is_planet_class = pc_asteroid }
 				}
 			}
 		modifier = {
 				factor = 0
 				planet = {
 					has_modifier = "titanic_life"
+					is_planet_class = pc_asteroid
+					is_planet_class = pc_hollowed_asteroid
+					NOT = { is_planet_class = pc_asteroid }
 				}
 		}
 	}
