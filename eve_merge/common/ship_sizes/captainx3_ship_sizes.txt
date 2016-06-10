@@ -85,8 +85,8 @@ Battlecruiser = {
 	
 	class = shipclass_military
 	required_component_set = "ftl_components"
-	required_component_set = "rangefinder_computers"
 	required_component_set = "combat_computers"
+	required_component_set = "rangefinder_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 }
@@ -119,8 +119,8 @@ Carrier = {
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "combat_computers"
-	required_component_set = "thruster_components"
 	required_component_set = "rangefinder_computers"
+	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 	required_component_set = "ship_aura_components"
 }
@@ -153,8 +153,8 @@ Dreadnought = {
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "combat_computers"
-	required_component_set = "thruster_components"
 	required_component_set = "rangefinder_computers"
+	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 	required_component_set = "ship_aura_components"
 }
