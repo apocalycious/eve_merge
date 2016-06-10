@@ -3,22 +3,20 @@ This repo contains a combined superset of stellaris mods which the author wanted
 
 All of the hard work is courtesy of the authors of the respective mods and not my own.  These mods are contained within:
 
-```
-* (Advanced Fleet Operations)[http://steamcommunity.com/sharedfiles/filedetails/?id=686641980]: modified to add Rangefinder modules to new ships
-* (Better Empire Names)[http://steamcommunity.com/sharedfiles/filedetails/?id=684475224]: adding new governments to the name lists
-* (Enhanced Terraforming)[http://steamcommunity.com/sharedfiles/filedetails/?id=683262202]: merged with other 
-* (Ethics, Government, Policies)[http://steamcommunity.com/sharedfiles/filedetails/?id=688581447]: merging of governments
-* (Galactic Governance)[http://steamcommunity.com/sharedfiles/filedetails/?id=687892748]: merging of goverments, ethics
-* (Larger Homeworld)[http://steamcommunity.com/sharedfiles/filedetails/?id=686173963]: merged changes with other planet-modifying mods
-* (Make Space(Governments) Great Again)[http://steamcommunity.com/sharedfiles/filedetails/?id=693897659]: merging of governments
-* (More Edicts: Protocols and Doctrines)[http://steamcommunity.com/sharedfiles/filedetails/?id=686166072]: merging of edicts
-* (More Events)[http://steamcommunity.com/sharedfiles/filedetails/?id=690089574]: merging events with other mods that added them
-* (More Planet Types)[http://steamcommunity.com/sharedfiles/filedetails/?id=694585917]: merging of planet type information
-* (New Ship Classes & More)[http://steamcommunity.com/sharedfiles/filedetails/?id=683230077]: modified to add Rangerfinder modules to new ships
-* (Rangefinder)[http://steamcommunity.com/sharedfiles/filedetails/?id=684750984]: added new modules to other mods that added ships
-* (Stone's Politics Expansion)[http://steamcommunity.com/sharedfiles/filedetails/?id=690755908]: merging of governments, edicts, etc
-* (The Belt)[http://steamcommunity.com/sharedfiles/filedetails/?id=694492075]: merging of planet type information
-```
+* [Advanced Fleet Operations](http://steamcommunity.com/sharedfiles/filedetails/?id=686641980): modified to add Rangefinder modules to new ships
+* [Better Empire Names](http://steamcommunity.com/sharedfiles/filedetails/?id=684475224): adding new governments to the name lists
+* [Enhanced Terraforming](http://steamcommunity.com/sharedfiles/filedetails/?id=683262202): merged with other 
+* [Ethics, Government, Policies](http://steamcommunity.com/sharedfiles/filedetails/?id=688581447): merging of governments
+* [Galactic Governance](http://steamcommunity.com/sharedfiles/filedetails/?id=687892748): merging of goverments, ethics
+* [Larger Homeworld](http://steamcommunity.com/sharedfiles/filedetails/?id=686173963): merged changes with other planet-modifying mods
+* [Make Space[Governments) Great Again](http://steamcommunity.com/sharedfiles/filedetails/?id=693897659): merging of governments
+* [More Edicts: Protocols and Doctrines](http://steamcommunity.com/sharedfiles/filedetails/?id=686166072): merging of edicts
+* [More Events](http://steamcommunity.com/sharedfiles/filedetails/?id=690089574): merging events with other mods that added them
+* [More Planet Types](http://steamcommunity.com/sharedfiles/filedetails/?id=694585917): merging of planet type information
+* [New Ship Classes & More](http://steamcommunity.com/sharedfiles/filedetails/?id=683230077): modified to add Rangerfinder modules to new ships
+* [Rangefinder](http://steamcommunity.com/sharedfiles/filedetails/?id=684750984): added new modules to other mods that added ships
+* [Stone's Politics Expansion](http://steamcommunity.com/sharedfiles/filedetails/?id=690755908): merging of governments, edicts, etc
+* [The Belt](http://steamcommunity.com/sharedfiles/filedetails/?id=694492075): merging of planet type information
 
 ##Changes##
 
