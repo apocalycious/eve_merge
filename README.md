@@ -9,7 +9,7 @@ All of the hard work is courtesy of the authors of the respective mods and not m
 * [Ethics, Government, Policies](http://steamcommunity.com/sharedfiles/filedetails/?id=688581447): merging of governments
 * [Galactic Governance](http://steamcommunity.com/sharedfiles/filedetails/?id=687892748): merging of goverments, ethics
 * [Larger Homeworld](http://steamcommunity.com/sharedfiles/filedetails/?id=686173963): merged changes with other planet-modifying mods
-* [Make Space[Governments) Great Again](http://steamcommunity.com/sharedfiles/filedetails/?id=693897659): merging of governments
+* [Make Space(Governments) Great Again](http://steamcommunity.com/sharedfiles/filedetails/?id=693897659): merging of governments
 * [More Edicts: Protocols and Doctrines](http://steamcommunity.com/sharedfiles/filedetails/?id=686166072): merging of edicts
 * [More Events](http://steamcommunity.com/sharedfiles/filedetails/?id=690089574): merging events with other mods that added them
 * [More Planet Types](http://steamcommunity.com/sharedfiles/filedetails/?id=694585917): merging of planet type information
